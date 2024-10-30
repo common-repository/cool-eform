@@ -1,0 +1,234 @@
+# Copyright (C) 2015 CoolPages
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: Cool eForm 0.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/cool-eform\n"
+"POT-Creation-Date: 2016-02-12 21:42+0100\n"
+"PO-Revision-Date: 2016-02-12 21:43+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: cs_CZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: cool-eform.php:130
+msgid ""
+"The \"From\" Address value did not appear to be a valid email address. "
+"Please enter a valid email address."
+msgstr ""
+"Hodnota pole \"Adresa odesilatele\" není platná emailová adresa. Zadejte "
+"prosím platnou emailovou adresu."
+
+#: cool-eform.php:141
+msgid ""
+"The \"To\" Address value did not appear to be a valid email address. Please "
+"enter a valid email address."
+msgstr ""
+"Hodnota pole \"Adresa příjemce\" není platná emailová adresa. Zadejte prosím "
+"platnou emailovou adresu."
+
+#: cool-eform.php:152
+msgid "The Subject value is required."
+msgstr "Pole \"Předmět\" je povinné."
+
+#: cool-eform.php:171 cool-eform.php:172
+msgid "eForm"
+msgstr "eForm"
+
+#: cool-eform.php:184
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Nemáte dostatečná oprávnění pro přístup na tuto stránku."
+
+#: cool-eform.php:210
+msgid "The form is invalid. Please try again."
+msgstr "Formulář je neplatný. Prosím zkuste to znovu."
+
+#: cool-eform.php:232
+msgid "An error has occurred while sending the form."
+msgstr "Při odesílání formuláře došlo k chybě."
+
+#: cool-eform.php:233
+msgid "Please try it later or send the message directly to %s."
+msgstr "Prosím zkuste to později nebo odešlete zprávu přímo na %s."
+
+#: cool-eform.php:257 templates/form.php:112
+msgid "This field is required."
+msgstr "Toto pole je povinné."
+
+#: cool-eform.php:264 templates/form.php:113
+msgid "Please enter a valid email address."
+msgstr "Zadejte prosím platnou emailovou adresu."
+
+#: cool-eform.php:272
+msgid "Please enter the correct value."
+msgstr "Zadejte prosím správnou hodnotu."
+
+#: cool-eform.php:309 templates/form.php:14 templates/settings.php:54
+msgid "Name"
+msgstr "Jméno"
+
+#: cool-eform.php:312 templates/form.php:28 templates/settings.php:63
+msgid "Email"
+msgstr "Email"
+
+#: cool-eform.php:315 templates/form.php:42 templates/settings.php:72
+msgid "Phone"
+msgstr "Telefon"
+
+#: cool-eform.php:318 templates/form.php:70 templates/settings.php:89
+msgid "Message"
+msgstr "Zpráva"
+
+#: templates/form.php:56 templates/settings.php:34 templates/settings.php:81
+msgid "Subject"
+msgstr "Předmět"
+
+#: templates/form.php:102
+msgid "Send"
+msgstr "Odeslat"
+
+#: templates/sent.php:3
+msgid "The form has been successfully sent."
+msgstr "Formulář byl úspěšně odeslán."
+
+#: templates/settings.php:2
+msgid "eForm Settings"
+msgstr "Nastavení pro eForm"
+
+#: templates/settings.php:6
+msgid "General"
+msgstr "Obecné"
+
+#: templates/settings.php:7
+msgid ""
+"The settings listed below determine the address to send the email to or the "
+"default subject of the email."
+msgstr ""
+"Nastavení uvedené níže určují adresu, na kterou se má odeslat email nebo "
+"defaultní předmět emailu."
+
+#: templates/settings.php:13
+msgid "\"From\" Name"
+msgstr "Jméno odesilatele"
+
+#: templates/settings.php:16
+msgid ""
+"If the 'Name' field is not selected or is empty, the email will appear to be "
+"from this name."
+msgstr ""
+"Pokud není pole \"Jméno\" vybráno nebo je jeho hodnota prázdná, email bude "
+"mít jako odesilatele toto jméno."
+
+#: templates/settings.php:20
+msgid "\"From\" Address"
+msgstr "Adresa odesilatele"
+
+#: templates/settings.php:23
+msgid ""
+"If the 'Email' field is not selected or is empty, the email will appear to "
+"be from this email address."
+msgstr ""
+"Pokud není pole \"Email\" vybráno nebo je jeho hodnota prázdná, email bude "
+"mít jako odesilatele tuto adresu."
+
+#: templates/settings.php:27
+msgid "\"To\" Address"
+msgstr "Adresa příjemce"
+
+#: templates/settings.php:30
+msgid "Email will be send to this email address."
+msgstr "Email bude odeslán na tuto adresu."
+
+#: templates/settings.php:37
+msgid ""
+"If the 'Subject' field is not selected or is empty, the email will have this "
+"subject."
+msgstr ""
+"Pokud není pole \"Předmět\" vybráno nebo je jeho hodnota prázdná, email bude "
+"mít tento předmět."
+
+#: templates/settings.php:42 templates/settings.php:49
+msgid "Fields"
+msgstr "Pole"
+
+#: templates/settings.php:43
+msgid "The list of available fields for the form."
+msgstr "Seznam polí použitelných na formuláři."
+
+#: templates/settings.php:50
+msgid "Used"
+msgstr "Vybraný"
+
+#: templates/settings.php:51
+msgid "Mandatory"
+msgstr "Povinný"
+
+#: templates/settings.php:100
+msgid "Anti Spam"
+msgstr "Anti-spam"
+
+#. Plugin Name of the plugin/theme
+msgid "Cool eForm"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://bitbucket.org/coolpages/cool-eform"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Easy-to-use contact form sending data to email."
+msgstr "Snadno použitelný kontaktní formulář posílající data na email."
+
+#. Author of the plugin/theme
+msgid "CoolPages"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.coolpages.cz"
+msgstr ""
+
+#~ msgid "An error has occured while sending the form."
+#~ msgstr "Při odesílání formuláře došlo k chybě."
+
+#~ msgid "Email will appear to be from this name."
+#~ msgstr "Email se bude jevit jako odeslán tímto odesilatelem."
+
+#~ msgid "Email will appear to be from this email address."
+#~ msgstr "Email se bude jevit jako odeslán z této adresy."
+
+#~ msgid ""
+#~ "If the subject field is not selected or is empty, the email will have "
+#~ "this subject."
+#~ msgstr ""
+#~ "Pokud není pole předmět vybráno nebo je jeho hodnota prázdná, email bude "
+#~ "mít tento předmět."
+
+#~ msgid ""
+#~ "The \"From\" value did not appear to be a valid email address. Please "
+#~ "enter a valid email address."
+#~ msgstr ""
+#~ "Hodnota pole \"Odesilatel\" není platná emailová adresa. Zadejte prosím "
+#~ "platnou emailovou adresu."
+
+#~ msgid ""
+#~ "The \"To\" value did not appear to be a valid email address. Please enter "
+#~ "a valid email address."
+#~ msgstr ""
+#~ "Hodnota pole \"Příjemce\" není platná emailova adresa. Zadejte prosím "
+#~ "platnou emailovou adresu."
+
+#~ msgid "The \"Subject\" value is required."
+#~ msgstr "Pole \"Předmět\" je povinné."
+
+#~ msgid "From"
+#~ msgstr "Odesilatel"
+
+#~ msgid "To"
+#~ msgstr "Příjemce"
+
+#~ msgid "The field is required."
+#~ msgstr "Toto pole je povinné."
